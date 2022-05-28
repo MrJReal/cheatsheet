@@ -10,9 +10,13 @@
 </head>
 
 <body>
+    <header>
     <h1>My Codecademy Cheatsheet</h1>
 
     <h2>HTML Display Reference</h2>
+    </header>
+
+    <main>
 
     <h3>Layout Properties</h3>
 
@@ -20,56 +24,90 @@
         <thead>
             <tr>
                 <th>Tag</th>
-                <th>Name</th>
+                <!--<th>Name</th>-->
                 <th>Description</th>
              </tr>
         </thead>
         <tbody>
             <tr>
-                <td><span><display></span></td>
-                <td>Display</td>
-                <td>Specifies if and how an element is displayed in the viewport</td>
+                <td class="tag">&lt;display&gt;</td>
+                <!--<td class="name">Display</td>-->
+                <td class="description">Specifies if and how an element is displayed in the viewport</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td class="tag">&lt;overflow&gt;</td>
+                <!--<td class="name">Overflow</td>-->
+                <td class="description">controls what happens to content that is too big to fit into an area</td>
             </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-
-        </tbody>
+         </tbody>
     </table>
 
+    <h3>Display Values</h3>
     <table>
-
-        <h3>Display Values</h3>
-        <thead>
-            <tr>
-                <th>Value</th>
-                <th>Name</th>
-                <th>Description</th>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Value</th>
+                    <!--<th>Name</th>-->
+                    <th>Description</th>
+                </tr>
+            </thead>
             <tbody>
                 <tr>
-                    <td>none</td>
-                    <td>None</td>
-                    <td>Hide element without deleting it</td>
+                    <td class="value">none</td>
+                    <!--<td class="value_name">None</td>-->
+                    <td class="description">Hide element without deleting it</td>
                 </tr>
                 <tr>
-                    <td>in-line</td>
-                    <td>In Line</td>
-                    <td>Inline elements do not start on a new line and only take up as much width as necessary.</td>
+                    <td class="value">in-line</td>
+                    <!--<td class="value_name">In Line</td>-->
+                    <td class="description">Inline elements do not start on a new line and only take up as much width as necessary.</td>
                 </tr>
                 <tr>
-                    <td>block</td>
-                    <td>Block</td>
-                    <td>Block elements start on a new line and take up the full width available</td>
+                    <td class="value">block</td>
+                    <!--<td class="value_name">Block</td>-->
+                    <td class="description">Block elements start on a new line and take up the full width available</td>
+                </tr>
+               <!-- <thead>
+                <tr>
+                    <th colspan="3">Usage</th>
+                </tr>
+                </thead>-->
+            </tbody>
+    </table>
+
+    <h3>Overflow Values</h3>
+    <table>
+            <thead>
+                <tr>
+                    <th>Value</th>
+                    <!--<th>Name</th>-->
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="value">visible</td>
+                   <!--<td class="value_name">Visible</td>-->
+                    <td class="description">Default. The overflow is not clipped. The content renders outside the element's box</td>
+                </tr>
+                <tr>
+                    <td class="value">hidden</td>
+                    <!--<td class="value_name">Hidden</td>-->
+                    <td class="description">The overflow is clipped, and the rest of the content will be invisible</td>
+                </tr>
+                <tr>
+                    <td class="value">scroll</td>
+                    <!--<td class="value_name">Scroll</td>-->
+                    <td class="description">The overflow is clipped, and a scrollbar is added to see the rest of the content</td>
+                </tr>
+                <tr>
+                    <td class="value">auto</td>
+                    <!--<td class="value_name">Auto</td>-->
+                    <td class="description">Similar to scroll, but it adds scrollbars only when necessary</td>
                 </tr>
             </tbody>
+    </table>
+    </main>
 
 
 </body>
